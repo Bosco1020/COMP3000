@@ -6,7 +6,7 @@ public class CameraControl : MonoBehaviour
 {
     public Transform target;
 
-    private void Start()
+    private void Update()
     {
         transform.LookAt(target);
     }

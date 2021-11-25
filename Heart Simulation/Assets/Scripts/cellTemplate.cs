@@ -3,18 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "SmartHeart", menuName = "Templates/Cell")]
-public class cellTemplate : ScriptableObject
+public class cellTemplate : ScriptableObject, IPooledCell
 {
     public new string name;
-    public GameObject model;
+    public string modelPrefab;
+    public Color value;
 
-    public void setParent(Transform parent)
+    public void OnObjectSpawn()
     {
-        this.model.transform.parent = parent;
-    }
-
-    public void setModel(GameObject template)
-    {
-        this.model = template;
+        //when spawn object, do something idk
+        
     }
 }

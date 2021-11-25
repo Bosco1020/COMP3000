@@ -242,7 +242,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 253108077}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.77, y: 11.6, z: 0}
+  m_LocalPosition: {x: -12.02, y: 9.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -265,7 +265,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 956c720c4dc3c294db005561d21185b5, type: 2}
   - {fileID: 11400000, guid: 8fecf0e2026edf344981054e740e1076, type: 2}
   display: {fileID: 1895153057}
-  current: {fileID: 0}
+  centre: {fileID: 253108077}
 --- !u!114 &253108080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,9 +279,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pools:
-  - tag: Type A
-    size: 100
-    prefab: {fileID: 0}
+  - tag: Model A
+    size: 3
+    prefab: {fileID: 8505901296646586029, guid: 7c3596178dbccc24e865dac227c5109d, type: 3}
+  - tag: Model B
+    size: 3
+    prefab: {fileID: 1680621883186149984, guid: c2349fdb7e26b014d998bd38b75f0132, type: 3}
 --- !u!1 &699845477
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,13 +468,13 @@ MonoBehaviour:
       - m_Target: {fileID: 253108079}
         m_TargetAssemblyTypeName: DisplayCell, Assembly-CSharp
         m_MethodName: Spawn
-        m_Mode: 3
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Type B
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &933834120
@@ -1103,13 +1106,13 @@ MonoBehaviour:
       - m_Target: {fileID: 253108079}
         m_TargetAssemblyTypeName: DisplayCell, Assembly-CSharp
         m_MethodName: Spawn
-        m_Mode: 3
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Type C
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1596681007
@@ -1370,13 +1373,13 @@ MonoBehaviour:
       - m_Target: {fileID: 253108079}
         m_TargetAssemblyTypeName: DisplayCell, Assembly-CSharp
         m_MethodName: Spawn
-        m_Mode: 3
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Type A
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1904351175

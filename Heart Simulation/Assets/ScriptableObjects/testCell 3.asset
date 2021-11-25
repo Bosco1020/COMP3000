@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Type C
   model: {fileID: 1680621883186149984, guid: c2349fdb7e26b014d998bd38b75f0132, type: 3}
+  modelPrefab: Model B
+  value: {r: 0, g: 0.6509434, b: 0.10809952, a: 0}
