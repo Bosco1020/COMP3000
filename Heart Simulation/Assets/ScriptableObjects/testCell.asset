@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: testCell
   m_EditorClassIdentifier: 
   name: Type A
-  model: {fileID: 1680621883186149984, guid: c2349fdb7e26b014d998bd38b75f0132, type: 3}
   modelPrefab: Model A
-  value: {r: 0, g: 0.22028074, b: 0.6792453, a: 0}
+  value: {r: 0.08235294, g: 0.15171035, b: 0.81960785, a: 0}

@@ -37,6 +37,7 @@ public class CellPooler : MonoBehaviour
                 GameObject obj = Instantiate(pool.prefab);
                 obj.SetActive(false);
                 objPool.Enqueue(obj);
+                obj.transform.SetParent(gameObject.transform);
             }
             poolDictionary.Add(pool.tag, objPool);
         }
