@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public interface IPooledCell
+public interface IStimulate
 {
     StimulusTemplate stimulus
     {
@@ -9,5 +9,4 @@ public interface IPooledCell
     }
     Animation activate();
 
-    void OnObjectSpawn();
 }

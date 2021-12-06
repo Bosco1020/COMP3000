@@ -34,4 +34,22 @@ public class organTemplate : MonoBehaviour
 
         refCamera.setTarget(views[index].cameraCentre.transform);
     }
+
+    public void closeView(int index)
+    {
+        StartCoroutine(resetCoroutine(index));
+    }
+
+    IEnumerator resetCoroutine(int index)
+    {
+        refCamera.reset();
+
+        //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(2);
+
+        foreach (Transform child in views[index].cameraCentre.transform)
+        {
+            child.gameObject.SetActive(false);
+        }
+    }
 }

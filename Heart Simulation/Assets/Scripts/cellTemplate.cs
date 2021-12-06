@@ -9,6 +9,15 @@ public class cellTemplate : ScriptableObject, IPooledCell
     public string modelPrefab;
     public Color value;
 
+    [SerializeField]
+    private StimulusTemplate tempStimulus;
+    public StimulusTemplate stimulus { get; set; }
+
+    public Animation activate()
+    {
+        return stimulus.response;
+    }
+
     public void OnObjectSpawn()
     {
         //when spawn object, do something idk
