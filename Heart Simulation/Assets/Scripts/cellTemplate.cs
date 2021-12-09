@@ -13,14 +13,13 @@ public class cellTemplate : ScriptableObject, IPooledCell
     private StimulusTemplate tempStimulus;
     public StimulusTemplate stimulus { get; set; }
 
-    public Animation activate()
+    public void activate()
     {
-        return stimulus.response;
+        stimulus.ChangeColor();
     }
 
     public void OnObjectSpawn()
     {
-        //when spawn object, do something idk
-        
+        stimulus.BuildAnim(value.r);
     }
 }

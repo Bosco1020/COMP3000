@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b621529a3e7e0b4e983e12fef06f395, type: 3}
-  m_Name: testStimulus
+  m_Name: testStimulusA
   m_EditorClassIdentifier: 
   name: Stimulus A
   response: {fileID: 0}

@@ -31,7 +31,7 @@ public class coOrdinateSystem : MonoBehaviour
         {
             Gizmos.color = Color.yellow;
         }
-
+        
         Gizmos.DrawWireCube(transform.position, new Vector3(1, 1, 1));
     }
 }

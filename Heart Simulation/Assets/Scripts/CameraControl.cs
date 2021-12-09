@@ -25,7 +25,7 @@ public class CameraControl : MonoBehaviour
 
         if (zoomed && cam.fieldOfView != 3)
         {
-            cam.fieldOfView = Mathf.MoveTowards(cam.fieldOfView, 3, 30 * Time.deltaTime);
+            cam.fieldOfView = Mathf.MoveTowards(cam.fieldOfView, 1, 30 * Time.deltaTime);
         }
         else if (!zoomed && cam.fieldOfView != 60)
         {

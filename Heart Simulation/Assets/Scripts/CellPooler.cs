@@ -38,6 +38,7 @@ public class CellPooler : MonoBehaviour
                 obj.SetActive(false);
                 objPool.Enqueue(obj);
                 obj.transform.SetParent(gameObject.transform);
+                obj.AddComponent<Animation>();
             }
             poolDictionary.Add(pool.tag, objPool);
         }
