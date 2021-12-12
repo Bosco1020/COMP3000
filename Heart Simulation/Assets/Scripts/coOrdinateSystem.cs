@@ -6,10 +6,22 @@ public class coOrdinateSystem : MonoBehaviour
 {
     public Vector3 location;
     public string cellType;
+    [SerializeField]
+    private GameObject objectRef;
 
     private void Start()
     {
         location = gameObject.transform.position;
+    }
+
+    public void SetObject(GameObject cell)
+    {
+        objectRef = cell;
+    }
+
+    public GameObject GetObject()
+    {
+        return objectRef;
     }
 
     void OnDrawGizmosSelected()

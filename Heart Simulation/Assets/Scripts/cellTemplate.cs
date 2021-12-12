@@ -9,17 +9,13 @@ public class cellTemplate : ScriptableObject, IPooledCell
     public string modelPrefab;
     public Color value;
 
-    [SerializeField]
-    private StimulusTemplate tempStimulus;
-    public StimulusTemplate stimulus { get; set; }
-
     public void activate()
     {
-        stimulus.ChangeColor();
+        //stimulus.ChangeColor();
     }
 
     public void OnObjectSpawn()
     {
-        stimulus.BuildAnim(value.r);
+        //stimulus.BuildAnim(value.r);
     }
 }

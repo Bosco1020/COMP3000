@@ -46,7 +46,7 @@ public class DisplayCell : MonoBehaviour
         renderer.material.SetColor("_Color", color);
     }
 
-    public void Spawn(string tag, Vector3 pos, Transform parent)
+    public GameObject Spawn(string tag, Vector3 pos, Transform parent)
     {
         Color color = Color.white;
         string model = "";
@@ -68,6 +68,8 @@ public class DisplayCell : MonoBehaviour
         //getComponent isn't very efficient
 
         renderer.material.SetColor("_Color", color);
+
+        return spawned;
     }
 
 }
