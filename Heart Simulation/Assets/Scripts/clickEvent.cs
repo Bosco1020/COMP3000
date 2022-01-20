@@ -8,7 +8,10 @@ public class clickEvent : MonoBehaviour
     Color idle = Color.white;
     Color selected = Color.red;
     public UnityEvent clicked;
+    public UnityEvent entered;
+    public UnityEvent exited;
     public Renderer renderer;
+    public bool testCube = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,11 +31,13 @@ public class clickEvent : MonoBehaviour
 
     public void OnMouseEnter()
     {
-        renderer.material.SetColor("_Color", selected);
+        entered.Invoke();
+        if (testCube) { renderer.material.SetColor("_Color", selected); }
     }
 
     public void OnMouseExit()
     {
-        renderer.material.SetColor("_Color", idle);
+        exited.Invoke();
+        if (testCube) { renderer.material.SetColor("_Color", idle); }
     }
 }
