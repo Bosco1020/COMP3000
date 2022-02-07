@@ -5,15 +5,16 @@ using UnityEngine;
 public class CameraControl : MonoBehaviour
 {
     public Transform target;
-    private Transform resetPoint;
-    private bool zoomed;
-    Camera cam;
+    private Transform resetTarget;
+    public Vector3 resetPoint, newPos;
+
+    [SerializeField]
     private int speed;
     public void Start()
     {
-        resetPoint = target;
-        cam = Camera.main;
-        speed = 5;
+        resetTarget = target;
+        resetPoint = transform.position;
+        newPos = transform.position;
     }
 
     private void Update()
@@ -23,31 +24,18 @@ public class CameraControl : MonoBehaviour
         // Smoothly rotate towards the target point.
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, speed * Time.deltaTime);
 
-        if (zoomed && cam.fieldOfView != 3)
-        {
-            cam.fieldOfView = Mathf.MoveTowards(cam.fieldOfView, 1, 30 * Time.deltaTime);
-        }
-        else if (!zoomed && cam.fieldOfView != 60)
-        {
-            cam.fieldOfView = Mathf.MoveTowards(cam.fieldOfView, 60, 30 * Time.deltaTime);
-        }
+        transform.position = Vector3.Lerp(transform.position, newPos, speed * Time.deltaTime);
     }
 
-    public void setTarget(Transform newTarget)
+    public void setTarget(Transform newTarget, Transform newPosition)
     {
         target = newTarget;
-        zoomed = true;
-        speed = 5;
-        //Camera.main.fieldOfView = 8;
-        //transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + 30);
+        newPos = newPosition.position;
     }
 
     public void reset()
     {
-        target = resetPoint;
-        zoomed = false;
-        speed = 1;
-        //Camera.main.fieldOfView = 60;
-        //transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - 30);
+        target = resetTarget;
+        newPos = resetPoint;
     }
 }

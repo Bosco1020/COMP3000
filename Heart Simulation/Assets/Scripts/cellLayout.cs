@@ -7,6 +7,7 @@ public class cellLayout : MonoBehaviour
     //public GameObject reticle;
     public coOrdinateSystem[] cells;
     public GameObject cameraCentre;
+    public Transform cameraMovePoint;
 
     void Start()
     {

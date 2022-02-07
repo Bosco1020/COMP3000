@@ -10,6 +10,7 @@ public class StimulusTemplate : MonoBehaviour
     public organTemplate[] organs;
     public string StimulusName;
 
+    #region Singleton
     [System.Serializable]
     public class CellResponsePair
     {
@@ -17,7 +18,6 @@ public class StimulusTemplate : MonoBehaviour
         public AnimationClip anim;
     }
 
-    #region Singleton
     public static StimulusTemplate Instance;
 
     private void Awake()

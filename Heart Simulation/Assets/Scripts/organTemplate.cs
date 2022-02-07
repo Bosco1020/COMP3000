@@ -48,7 +48,7 @@ public class organTemplate : MonoBehaviour
             cell.SetObject(display.Spawn(cell.cellType, cell.location, views[index].cameraCentre.transform));
         }
 
-        refCamera.setTarget(views[index].cameraCentre.transform);
+        refCamera.setTarget(views[index].cameraCentre.transform, views[index].cameraMovePoint);
     }
 
     public void closeView(int index)

@@ -5,6 +5,7 @@ using UnityEngine;
 public class coOrdinateSystem : MonoBehaviour
 {
     public Vector3 location;
+    public Quaternion rotation;
     public string cellType;
     [SerializeField]
     private GameObject objectRef;
@@ -12,11 +13,13 @@ public class coOrdinateSystem : MonoBehaviour
     private void Start()
     {
         location = gameObject.transform.position;
+        rotation = gameObject.transform.rotation;
     }
 
     public void SetObject(GameObject cell)
     {
         objectRef = cell;
+        objectRef.transform.rotation = rotation;
     }
 
     public GameObject GetObject()
@@ -45,5 +48,6 @@ public class coOrdinateSystem : MonoBehaviour
         }
         
         Gizmos.DrawWireCube(transform.position, new Vector3(1, 1, 1));
+        //Gizmos.DrawCube(new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.5f), new Vector3(0.25f, 0.25f, 0.1f));
     }
 }

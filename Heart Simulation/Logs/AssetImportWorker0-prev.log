@@ -15,11 +15,11 @@ E:/3000/COMP3000/Heart Simulation
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49650
+60707
 Successfully changed project path to: E:/3000/COMP3000/Heart Simulation
 E:/3000/COMP3000/Heart Simulation
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 22.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path E:/UnityHub/Editor/Data/Resources/UnitySubsystems
@@ -35,72 +35,72 @@ Initialize mono
 Mono path[0] = 'E:/UnityHub/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityHub/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/UnityHub/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityHub/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000690 seconds.
+Registered in 0.000820 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 22.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 21.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.564 seconds
+- Completed reload, in  0.558 seconds
 Domain Reload Profiling:
-	ReloadAssembly (564ms)
-		BeginReloadAssembly (34ms)
+	ReloadAssembly (558ms)
+		BeginReloadAssembly (35ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (250ms)
-			LoadAssemblies (33ms)
+		EndReloadAssembly (254ms)
+			LoadAssemblies (35ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (87ms)
+			SetupTypeCache (90ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (106ms)
+			SetupLoadedEditorAssemblies (107ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (22ms)
 				BeforeProcessingInitializeOnLoad (13ms)
 				ProcessInitializeOnLoadAttributes (51ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001563 seconds.
+Registered in 0.001311 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.615 seconds
+- Completed reload, in  0.622 seconds
 Domain Reload Profiling:
-	ReloadAssembly (615ms)
+	ReloadAssembly (623ms)
 		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (491ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (499ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (161ms)
+			SetupTypeCache (160ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (195ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (200ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (139ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (142ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1783 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.3 MB.
-System memory in use after: 89.3 MB.
+System memory in use before: 89.5 MB.
+System memory in use after: 89.6 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2233.
-Total: 2.654600 ms (FindLiveObjects: 0.208200 ms CreateObjectMapping: 0.039700 ms MarkObjects: 2.321300 ms  DeleteObjects: 0.084500 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2235.
+Total: 2.708300 ms (FindLiveObjects: 0.203600 ms CreateObjectMapping: 0.054000 ms MarkObjects: 2.426000 ms  DeleteObjects: 0.023800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,17 +131,97 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/DisplayCell.cs
-  artifactKey: Guid(17b1b06bfc73a5c458ae722f6b16d998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DisplayCell.cs using Guid(17b1b06bfc73a5c458ae722f6b16d998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deab1e971e9f7e44d93f1402f8079b22') in 0.108195 seconds 
-  Import took 0.157837 seconds .
+  path: Assets/Models
+  artifactKey: Guid(c9072930c96463a429c26d1521266804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(c9072930c96463a429c26d1521266804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc24f0395d8da7f51c95f22d26b82d2f') in 0.119760 seconds 
+  Import took 0.146173 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.323773 seconds.
-  path: Assets/Scripts/CellPooler.cs
-  artifactKey: Guid(de10c9e783bb3cd42b47ae37f1df1262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CellPooler.cs using Guid(de10c9e783bb3cd42b47ae37f1df1262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e9c66a9b6f01ef5ac7b1c7018849e1') in 0.004828 seconds 
-  Import took 0.046020 seconds .
+  Time since last request: 7.658401 seconds.
+  path: Assets/Models/Imported Model
+  artifactKey: Guid(fe145ef95766b71468fc8c81f41d3660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Imported Model using Guid(fe145ef95766b71468fc8c81f41d3660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263c1100c2b0231128bed201b3535351') in 0.008843 seconds 
+  Import took 0.033573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.825757 seconds.
+  path: Assets/Models/Imported Model/human-heart-for-cycles_.....OBJ.rar
+  artifactKey: Guid(fd6ce7ef1f0efea4fb2c41737292449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Imported Model/human-heart-for-cycles_.....OBJ.rar using Guid(fd6ce7ef1f0efea4fb2c41737292449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ca1d8eed7667ba9914ec5317dcd91b') in 0.021808 seconds 
+  Import took 0.070215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.923042 seconds.
+  path: Assets/Models/Imported Model/Human_heart.obj
+  artifactKey: Guid(7f89a9c0ca9385843b4b82c7bca3717e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Imported Model/Human_heart.obj using Guid(7f89a9c0ca9385843b4b82c7bca3717e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af60cab6e63e31d40d2b7bbebabd259') in 0.836117 seconds 
+  Import took 0.854118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.476373 seconds.
+  path: Assets/Models/Imported Model/Auricula der.png
+  artifactKey: Guid(72d916f834ab08e478e7fad68d7a59ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Imported Model/Auricula der.png using Guid(72d916f834ab08e478e7fad68d7a59ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5865a869b8473debd214a44dc6abfdad') in 0.014159 seconds 
+  Import took 0.035506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.993810 seconds.
+  path: Assets/Models/Imported Model/Auricula izq.png
+  artifactKey: Guid(ef23796e5e86cf243a0d8fa0d9abe375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Imported Model/Auricula izq.png using Guid(ef23796e5e86cf243a0d8fa0d9abe375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0360bed4eb36a2863b03dea3aa4b9364') in 0.012844 seconds 
+  Import took 0.052689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.456694 seconds.
+  path: Assets/Models/Imported Model/Corazon.png
+  artifactKey: Guid(13f26d239f7737e45a624220575ca45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Imported Model/Corazon.png using Guid(13f26d239f7737e45a624220575ca45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159b2230c0db7c5053f1867dd0824956') in 0.010837 seconds 
+  Import took 0.041957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.269496 seconds.
+  path: Assets/Models/Imported Model/Corazon_b02.jpg
+  artifactKey: Guid(ce2b29766929c724eabf19ddbb73c089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Imported Model/Corazon_b02.jpg using Guid(ce2b29766929c724eabf19ddbb73c089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1d6fbe9798baa83d11fe165307fdc4') in 0.011034 seconds 
+  Import took 0.049232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.605332 seconds.
+  path: Assets/Models/Imported Model/Human_heart.mtl
+  artifactKey: Guid(3683cbc8dc109f04f9bc9903711eed38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Imported Model/Human_heart.mtl using Guid(3683cbc8dc109f04f9bc9903711eed38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8ac0b8092f8838924f27234cdc0ec9') in 0.004448 seconds 
+  Import took 0.035982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 294.938780 seconds.
+  path: Assets/Models/Imported Model/Human_heart.obj
+  artifactKey: Guid(7f89a9c0ca9385843b4b82c7bca3717e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Imported Model/Human_heart.obj using Guid(7f89a9c0ca9385843b4b82c7bca3717e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0e03b8b8af00cfe83cbe4a3d08bc97') in 0.064950 seconds 
+  Import took 0.067696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.964798 seconds.
+  path: Assets/Models/Imported Model/Human_heart.stl
+  artifactKey: Guid(cab79c4b4a458d84ab58cdcd25490397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Imported Model/Human_heart.stl using Guid(cab79c4b4a458d84ab58cdcd25490397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad3e931bf1371e1197ac9794ec042c3') in 0.004754 seconds 
+  Import took 0.027570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.214243 seconds.
+  path: Assets/Models/Imported Model/Human_heart.fbx
+  artifactKey: Guid(99e4e85770b505647ae66cad456038da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Imported Model/Human_heart.fbx using Guid(99e4e85770b505647ae66cad456038da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8773578fefb30aa64870ff58d96186a2') in 0.047049 seconds 
+  Import took 0.084640 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
