@@ -10,6 +10,8 @@ public class coOrdinateSystem : MonoBehaviour
     [SerializeField]
     private GameObject objectRef;
 
+    public float x = 1f, y = 1f, z = 1f;
+
     private void Start()
     {
         location = gameObject.transform.position;
@@ -47,7 +49,7 @@ public class coOrdinateSystem : MonoBehaviour
             Gizmos.color = Color.yellow;
         }
         
-        Gizmos.DrawWireCube(transform.position, new Vector3(1, 1, 1));
+        Gizmos.DrawWireCube(transform.position, new Vector3(x, y, z));
         //Gizmos.DrawCube(new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.5f), new Vector3(0.25f, 0.25f, 0.1f));
     }
 }

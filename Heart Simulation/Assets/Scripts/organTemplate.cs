@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class organTemplate : MonoBehaviour
 {
+    public string organTag;
+
     [SerializeField]
     private cellLayout[] views;
 
@@ -13,17 +15,31 @@ public class organTemplate : MonoBehaviour
     [SerializeField]
     private CameraControl refCamera;
 
+    private int currentView;
+
+    [SerializeField]
+    private Animator IdleAnim;
+
+    [Range (0, 10)]
+    public float idleRate = 1.0f;
+
     //[SerializeField]
     //private cellGrouper[] cellGroups;
 
     void Start()
     {
-        
+        currentView = -1;
+        IdleAnim.speed = idleRate;
     }
 
     void Update()
     {
-        
+        IdleAnim.speed = idleRate;
+    }
+
+    public void stimulate()
+    {
+
     }
 
     public List<coOrdinateSystem> returnActiveCells()
@@ -41,19 +57,20 @@ public class organTemplate : MonoBehaviour
 
     public void showView(int index)
     {
-        coOrdinateSystem[] temp = views[index].returnCells();
+        currentView = index;
+        coOrdinateSystem[] temp = views[currentView].returnCells();
 
         foreach (coOrdinateSystem cell in temp)
         {
-            cell.SetObject(display.Spawn(cell.cellType, cell.location, views[index].cameraCentre.transform));
+            cell.SetObject(display.Spawn(cell.cellType, cell.location, views[currentView].cameraCentre.transform));
         }
 
-        refCamera.setTarget(views[index].cameraCentre.transform, views[index].cameraMovePoint);
+        refCamera.setTarget(views[currentView].cameraCentre.transform, views[currentView].cameraMovePoint);
     }
 
-    public void closeView(int index)
+    public void closeView()
     {
-        StartCoroutine(resetCoroutine(index));
+        StartCoroutine(resetCoroutine(currentView));
     }
 
     IEnumerator resetCoroutine(int index)

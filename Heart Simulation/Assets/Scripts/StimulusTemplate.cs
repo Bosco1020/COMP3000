@@ -34,8 +34,19 @@ public class StimulusTemplate : MonoBehaviour
         {
             List<coOrdinateSystem> activeCells = organ.returnActiveCells();
 
+            foreach (CellResponsePair pair in animPairs)
+            {//First find the matching organs and their responses
+                if (pair.tag == organ.organTag)
+                {
+                    Animation organTemp = organ.GetComponent<Animation>();
+                    organTemp.AddClip(pair.anim, StimulusName + ", " + pair.tag);
+                    organTemp.Play(StimulusName + ", " + pair.tag);
+
+                }
+            }
+
             foreach (coOrdinateSystem cell in activeCells)
-            {
+            {// for every set of cells (per view)
                 foreach (CellResponsePair pair in animPairs)
                 {//find the mathcing cell type tag to identify animation
                     if (pair.tag == cell.cellType)
@@ -43,6 +54,14 @@ public class StimulusTemplate : MonoBehaviour
                         Animation temp = cell.GetObject().GetComponent<Animation>();
                         temp.AddClip(pair.anim, StimulusName + ", " + pair.tag);
                         temp.Play(StimulusName + ", " + pair.tag);
+                    }
+
+                    if(pair.tag == organ.organTag)
+                    {
+                        Animation organTemp = organ.GetComponent<Animation>();
+                        organTemp.AddClip(pair.anim, StimulusName + ", " + pair.tag);
+                        organTemp.Play(StimulusName + ", " + pair.tag);
+
                     }
                 }
             }

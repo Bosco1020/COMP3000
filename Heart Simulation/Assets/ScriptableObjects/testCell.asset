@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ef675b4d830a9a459d46cbe4a5399a9, type: 3}
   m_Name: testCell
   m_EditorClassIdentifier: 
-  name: Type A
+  name: Endothelial
   modelPrefab: Model A
   value: {r: 0.08235294, g: 0.15171035, b: 0.81960785, a: 0}
-  tempStimulus: {fileID: 11400000, guid: baab0e837a01f714c8ff978f796bc5eb, type: 2}

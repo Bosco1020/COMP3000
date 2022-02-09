@@ -64,10 +64,10 @@ public class DisplayCell : MonoBehaviour
 
         GameObject spawned = cellPooler.SpawnFromPool(model, pos, Quaternion.identity);
         spawned.transform.SetParent(parent);
-        var renderer = spawned.GetComponent<Renderer>();
+        var renderer = spawned.GetComponentInChildren<Renderer>();
         //getComponent isn't very efficient
 
-        renderer.material.SetColor("_Color", color);
+        //renderer.material.SetColor("_Color", color);
 
         return spawned;
     }
