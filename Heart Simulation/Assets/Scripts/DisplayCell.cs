@@ -7,7 +7,6 @@ using TMPro;
 public class DisplayCell : MonoBehaviour
 {
     public cellTemplate[] cell;
-    public TMP_Text display;
 
     public GameObject centre;
 
@@ -28,7 +27,6 @@ public class DisplayCell : MonoBehaviour
         Vector3 temp = centre.transform.position;
         temp.x += 1;
         centre.transform.position = temp;
-        display.text = tag;
 
         foreach (cellTemplate template in cell)
         {
@@ -50,8 +48,6 @@ public class DisplayCell : MonoBehaviour
     {
         Color color = Color.white;
         string model = "";
-
-        display.text = tag;
 
         foreach (cellTemplate template in cell)
         {

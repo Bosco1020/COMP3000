@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ef675b4d830a9a459d46cbe4a5399a9, type: 3}
   m_Name: testCell 3
   m_EditorClassIdentifier: 
-  name: Type C
-  model: {fileID: 1680621883186149984, guid: c2349fdb7e26b014d998bd38b75f0132, type: 3}
-  modelPrefab: Model B
+  name: Arteriole
+  modelPrefab: Model C
   value: {r: 0, g: 0.6509434, b: 0.10809952, a: 0}

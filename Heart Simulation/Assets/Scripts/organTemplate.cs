@@ -17,14 +17,12 @@ public class organTemplate : MonoBehaviour
 
     private int currentView;
 
-    [SerializeField]
-    private Animator IdleAnim;
+    public Animator IdleAnim;
 
     [Range (0, 10)]
     public float idleRate = 1.0f;
 
-    //[SerializeField]
-    //private cellGrouper[] cellGroups;
+    public bool speedOveride = false;
 
     void Start()
     {
@@ -34,12 +32,10 @@ public class organTemplate : MonoBehaviour
 
     void Update()
     {
-        IdleAnim.speed = idleRate;
-    }
-
-    public void stimulate()
-    {
-
+        if(speedOveride)
+        {
+            IdleAnim.speed = idleRate;
+        }
     }
 
     public List<coOrdinateSystem> returnActiveCells()

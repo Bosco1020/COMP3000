@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 public class coOrdinateSystem : MonoBehaviour
 {
@@ -29,18 +30,18 @@ public class coOrdinateSystem : MonoBehaviour
         return objectRef;
     }
 
-    void OnDrawGizmosSelected()
+    void OnDrawGizmos()
     {
         // Draw a cube at the transform position
-        if (cellType == "Type A")
+        if (cellType == "Fibroblast")
         {
             Gizmos.color = Color.blue;
         }
-        else if (cellType == "Type B")
+        else if (cellType == "Endothelial")
         {
             Gizmos.color = Color.red;
         }
-        else if (cellType == "Type C")
+        else if (cellType == "Arteriole")
         {
             Gizmos.color = Color.green;
         }
@@ -49,7 +50,7 @@ public class coOrdinateSystem : MonoBehaviour
             Gizmos.color = Color.yellow;
         }
         
-        Gizmos.DrawWireCube(transform.position, new Vector3(x, y, z));
+        Gizmos.DrawWireCube(transform.position, new Vector3(x, z, y));
         //Gizmos.DrawCube(new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.5f), new Vector3(0.25f, 0.25f, 0.1f));
     }
 }
