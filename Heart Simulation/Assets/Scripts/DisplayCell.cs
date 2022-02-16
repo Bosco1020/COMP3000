@@ -46,21 +46,18 @@ public class DisplayCell : MonoBehaviour
 
     public GameObject Spawn(string tag, Vector3 pos, Transform parent)
     {
-        Color color = Color.white;
         string model = "";
 
         foreach (cellTemplate template in cell)
         {
             if (template.name == tag)
             {
-                color = template.value;
                 model = template.modelPrefab;
             }
         }
 
         GameObject spawned = cellPooler.SpawnFromPool(model, pos, Quaternion.identity);
         spawned.transform.SetParent(parent);
-        var renderer = spawned.GetComponentInChildren<Renderer>();
         //getComponent isn't very efficient
 
         //renderer.material.SetColor("_Color", color);

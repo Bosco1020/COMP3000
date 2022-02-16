@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "SmartHeart", menuName = "Templates/Cell")]
-public class cellTemplate : ScriptableObject, IPooledCell
+public class cellTemplate : ScriptableObject
 {
     public new string name;
     public string modelPrefab;

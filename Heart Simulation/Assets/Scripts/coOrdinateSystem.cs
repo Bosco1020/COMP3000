@@ -21,8 +21,8 @@ public class coOrdinateSystem : MonoBehaviour
 
     public void SetObject(GameObject cell)
     {
-        objectRef = cell;
-        objectRef.transform.rotation = rotation;
+        objectRef = cell.transform.GetChild(0).gameObject;
+        cell.transform.rotation = rotation;
     }
 
     public GameObject GetObject()

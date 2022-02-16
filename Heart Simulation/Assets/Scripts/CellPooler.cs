@@ -38,7 +38,6 @@ public class CellPooler : MonoBehaviour
                 obj.SetActive(false);
                 objPool.Enqueue(obj);
                 obj.transform.SetParent(gameObject.transform);
-                obj.AddComponent<Animation>();
             }
             poolDictionary.Add(pool.tag, objPool);
         }
@@ -56,13 +55,6 @@ public class CellPooler : MonoBehaviour
         objToSpawn.SetActive(true);
         objToSpawn.transform.position = position;
         objToSpawn.transform.rotation = rotation;
-
-        IPooledCell pooledCell = objToSpawn.GetComponent<IPooledCell>();
-
-        if (pooledCell != null)
-        {
-            pooledCell.OnObjectSpawn();
-        }
 
         poolDictionary[tag].Enqueue(objToSpawn);
 
