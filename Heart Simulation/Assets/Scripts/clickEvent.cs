@@ -8,6 +8,7 @@ public class clickEvent : MonoBehaviour
     public UnityEvent clicked;
     public UnityEvent entered;
     public UnityEvent exited;
+    public UnityEvent clickConfirmed;
     public Animator anim;
     // Start is called before the first frame update
     void Start()
@@ -35,5 +36,10 @@ public class clickEvent : MonoBehaviour
     {
         anim.SetInteger("speed", -1);
         exited.Invoke();
+    }
+
+    public void confirmClick()
+    {
+        clickConfirmed.Invoke();
     }
 }

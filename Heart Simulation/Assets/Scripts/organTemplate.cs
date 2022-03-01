@@ -57,6 +57,9 @@ public class organTemplate : MonoBehaviour
 
     public List<coOrdinateSystem> returnActiveCells()
     {
+        //NEEDS to check if cell is active or not
+        //Currently returns EVERY cell in organ, may be a bit much... may not tbh
+
         List<coOrdinateSystem> allCells = new List<coOrdinateSystem>();
 
         foreach (cellLayout view in views)
@@ -81,6 +84,12 @@ public class organTemplate : MonoBehaviour
         refCamera.setTarget(views[currentView].cameraCentre.transform, views[currentView].cameraMovePoint);
     }
 
+    public void spawnCell(string tag, Vector3 pos, Transform parent)
+    {
+        // can use this to spawn necessary cells from DisplayCell
+        display.Spawn(tag, pos, parent);
+    }
+
     public void fadeOut()
     {
         foreach (Renderer mat in heartMats)
@@ -94,7 +103,6 @@ public class organTemplate : MonoBehaviour
             mat.material.EnableKeyword("_ALPHABLEBD_ON");
             mat.material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
             mat.material.renderQueue = 3000;
-            
         }
         //fadingOut = true;
         StartCoroutine(fadeOutCoroutine());

@@ -47,20 +47,31 @@ public class DisplayCell : MonoBehaviour
     public GameObject Spawn(string tag, Vector3 pos, Transform parent)
     {
         string model = "";
+        AnimationClip clip = null;
 
         foreach (cellTemplate template in cell)
         {
             if (template.name == tag)
             {
                 model = template.modelPrefab;
+                
+                if(!template.anim.empty)
+                {
+                    clip = template.anim;
+                }
             }
         }
 
         GameObject spawned = cellPooler.SpawnFromPool(model, pos, Quaternion.identity);
         spawned.transform.SetParent(parent);
-        //getComponent isn't very efficient
 
-        //renderer.material.SetColor("_Color", color);
+        if(!clip.empty)
+        { //If clip isn't empty, then play the on spawn animation
+            Animation animation = spawned.GetComponent<Animation>();
+            animation.AddClip(clip, clip.name);
+            animation.Play(clip.name);
+        }
+        //getComponent isn't very efficient
 
         return spawned;
     }

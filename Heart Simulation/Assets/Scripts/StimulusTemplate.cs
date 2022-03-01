@@ -27,16 +27,8 @@ public class StimulusTemplate : MonoBehaviour
 
         public bool IdleSpeedChange;
         public float speedChange;
-    }
 
-    [System.Serializable]
-    public class Stimulator
-    {
-        public string StimulusName;
-
-        public Transform StimulusSource;
-
-        public data effects;
+        public string[] spawnedCellsTags;
     }
 
     public static StimulusTemplate Instance;
@@ -47,7 +39,13 @@ public class StimulusTemplate : MonoBehaviour
     }
     #endregion
 
-    public Stimulator stimulus;
+    public string StimulusName;
+
+    public Sprite cursorIcon;
+
+    public Transform StimulusSource;
+
+    public data effects;
 
     public List<ResponsePair> cellPairs;
 
@@ -55,7 +53,7 @@ public class StimulusTemplate : MonoBehaviour
 
     public List<ResponsePair> organPairs;
 
-    public void stimulate()
+    public void stimulate() //have it take in an index for which layout
     {
     foreach (organTemplate organ in organs)
     {
@@ -67,8 +65,8 @@ public class StimulusTemplate : MonoBehaviour
             if (organResponse.Responses.hasAnimation)
             {
                 Animation organTemp = organ.GetComponent<Animation>();
-                organTemp.AddClip(organResponse.Responses.anim, stimulus.StimulusName + ", " + organResponse.tag);
-                organTemp.Play(stimulus.StimulusName + ", " + organResponse.tag);
+                organTemp.AddClip(organResponse.Responses.anim, StimulusName + ", " + organResponse.tag);
+                organTemp.Play(StimulusName + ", " + organResponse.tag);
             }
 
             if (organResponse.Responses.changeColour)
@@ -81,6 +79,7 @@ public class StimulusTemplate : MonoBehaviour
             {
                 //limits values to between the idle rate and the idle rate + increased speed
                 organ.IdleAnim.speed = Mathf.Clamp(organ.IdleAnim.speed + organResponse.Responses.speedChange, organ.idleRate, organ.idleRate + organResponse.Responses.speedChange);
+                        //change method to lerp between rates, and reduce once stimulus ended
             }}
         }
 
@@ -90,15 +89,15 @@ public class StimulusTemplate : MonoBehaviour
             {//find the matching cell type and tag
 
                 //Check if within range, if not then return out of method
-                float distance = (float) Math.Sqrt(Math.Pow(stimulus.StimulusSource.position.x - cell.location.x, 2) + Math.Pow(stimulus.StimulusSource.position.y - cell.location.y, 2) + Math.Pow(stimulus.StimulusSource.position.z - cell.location.z, 2));
+                float distance = (float) Math.Sqrt(Math.Pow(StimulusSource.position.x - cell.location.x, 2) + Math.Pow(StimulusSource.position.y - cell.location.y, 2) + Math.Pow(StimulusSource.position.z - cell.location.z, 2));
                 if (pair.range != 0 && distance > pair.range) return;
-
+                    
                 if (pair.tag == cell.cellType){
                 if (pair.Responses.hasAnimation)
                 {
                     Animation temp = cell.GetObject().GetComponent<Animation>();
-                    temp.AddClip(pair.Responses.anim, stimulus.StimulusName + ", " + pair.tag);
-                    temp.Play(stimulus.StimulusName + ", " + pair.tag);
+                    temp.AddClip(pair.Responses.anim, StimulusName + ", " + pair.tag);
+                    temp.Play(StimulusName + ", " + pair.tag);
                 }
 
                 if (pair.Responses.changeColour)
@@ -111,6 +110,13 @@ public class StimulusTemplate : MonoBehaviour
                 {
                     Animator temp = cell.GetObject().GetComponent<Animator>();
                     temp.speed += pair.Responses.speedChange;
+                }
+
+                if (pair.Responses.spawnedCellsTags.Length > 0)
+                {
+                    //cells are to be spawned. Specify here what/how
+
+                    //organ.IdleAnim.speed = Mathf.Clamp(organ.IdleAnim.speed + organResponse.Responses.speedChange, organ.idleRate, organ.idleRate + organResponse.Responses.speedChange);
                 }}
             }
         }

@@ -8,6 +8,7 @@ public class cellTemplate : ScriptableObject
     public new string name;
     public string modelPrefab;
     public Color value;
+    public AnimationClip anim;
 
     public void activate()
     {
@@ -17,5 +18,6 @@ public class cellTemplate : ScriptableObject
     public void OnObjectSpawn()
     {
         //stimulus.BuildAnim(value.r);
+        
     }
 }
