@@ -18,4 +18,14 @@ public class cellLayout : MonoBehaviour
     {
         return cells;
     }
+
+    public void addCell(coOrdinateSystem addition)
+    {
+        coOrdinateSystem[] temp = new coOrdinateSystem[cells.Length + 1];
+        temp[cells.Length] = addition;
+        cells = new coOrdinateSystem[cells.Length + 1];
+        cells = temp;
+
+        //cells[cells.Length] = addition;
+    }
 }

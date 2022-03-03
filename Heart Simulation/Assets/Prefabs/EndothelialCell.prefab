@@ -376,7 +376,6 @@ GameObject:
   - component: {fileID: 485204745277516052}
   - component: {fileID: 6315100544050598702}
   - component: {fileID: 92319672447485566}
-  - component: {fileID: 4380285052450779881}
   m_Layer: 0
   m_Name: Endothelial
   m_TagString: Untagged
@@ -1161,18 +1160,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!111 &4380285052450779881
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4162776088633546607}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0

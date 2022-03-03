@@ -30,18 +30,21 @@ public class UiController : MonoBehaviour
 
     public void updateCurrentStimulus(StimulusTemplate stimulus)
     {
+        refStimulus = stimulus;
+
         // player has clicked on the stimulus button
-        if (currentLayoutIndex > 0)
+        if (currentLayoutIndex >= 0)
         {
             // if currently zoomed in, then immediately trigger stimulus
-            refStimulus.stimulate();
+            refStimulus.stimulateSpecific(currentLayoutIndex, refOrgan);
             stimulating = false;
+            cursor.resetIcon();
             return;
         }
 
         // otherwise save this as reference for then updating the stimulus
         stimulating = true;
-        refStimulus = stimulus;
+        cursor.updateIcon(refStimulus.cursorIcon);
     }
 
     public void updateCurrentLayout(int index)
@@ -50,14 +53,19 @@ public class UiController : MonoBehaviour
         currentLayoutIndex = index;
 
         //if set to -1, then no layout currently
-        if (index == -1){ return; }
+        if (index == -1){ refOrgan.closeView(); return; }
 
+        cursor.resetIcon();
         if (stimulating)
         {
             // if stimulus selected, then trigger at location
             refOrgan.showView(currentLayoutIndex);
+            refStimulus.stimulateSpecific(currentLayoutIndex, refOrgan);
             stimulating = false;
+            return;
         }
+
+        refOrgan.showView(currentLayoutIndex);
     }
 
     public void updateTargetOrgan(organTemplate organ)

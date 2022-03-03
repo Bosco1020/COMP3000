@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Fibroblast
   modelPrefab: Model B
-  value: {r: 0.8773585, g: 0, b: 0, a: 0}
+  defaultMaterials:
+  - {fileID: 2100000, guid: 67d39d629a572024bac47ab0165d2ad9, type: 2}
+  - {fileID: 2100000, guid: db273850159a47a49aa6170bee4e950d, type: 2}
+  anim: {fileID: 0}

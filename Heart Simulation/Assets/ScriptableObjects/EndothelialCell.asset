@@ -14,4 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Endothelial
   modelPrefab: Model A
-  value: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 1}
+  defaultMaterials:
+  - {fileID: 2100000, guid: 5f3ff5d91f139eb4ebc23294a3dc5b7f, type: 2}
+  - {fileID: 2100000, guid: fdef47e995eb0974f8e3f24c1cd70e5a, type: 2}
+  anim: {fileID: 0}

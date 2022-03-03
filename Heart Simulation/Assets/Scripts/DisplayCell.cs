@@ -15,13 +15,10 @@ public class DisplayCell : MonoBehaviour
     public void Start()
     {
         cellPooler = CellPooler.Instance;
-        //current.transform.parent = this.transform;
-        //Instantiate(current, transform.position, transform.rotation);
     }
 
     public void Spawn(string tag)
     {
-        Color color = Color.white;
         string model = "";
 
         Vector3 temp = centre.transform.position;
@@ -32,7 +29,6 @@ public class DisplayCell : MonoBehaviour
         {
             if (template.name == tag)
             {
-                color = template.value;
                 model = template.modelPrefab;
             }
         }
@@ -40,25 +36,26 @@ public class DisplayCell : MonoBehaviour
         GameObject spawned = cellPooler.SpawnFromPool(model, temp, Quaternion.identity);
         var renderer = spawned.GetComponent<Renderer>();
         //getComponent isn't very efficient
-
-        renderer.material.SetColor("_Color", color);
     }
 
     public GameObject Spawn(string tag, Vector3 pos, Transform parent)
     {
         string model = "";
-        AnimationClip clip = null;
+        AnimationClip clip = new AnimationClip();
 
         foreach (cellTemplate template in cell)
         {
             if (template.name == tag)
             {
                 model = template.modelPrefab;
-                
-                if(!template.anim.empty)
+
+                try
                 {
-                    clip = template.anim;
+                    //can't recognise when doesn't exist
+                    //clip = template.anim;
                 }
+                catch
+                {}
             }
         }
 

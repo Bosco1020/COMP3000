@@ -60,7 +60,6 @@ GameObject:
   - component: {fileID: 2888532997129756343}
   - component: {fileID: 6562541220885767727}
   - component: {fileID: 8054041432768955179}
-  - component: {fileID: 3300765156863258733}
   m_Layer: 0
   m_Name: Arteriole
   m_TagString: Untagged
@@ -2295,7 +2294,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2190c5111b75494a96cd192b6027aef, type: 2}
+  - {fileID: 2100000, guid: 1838c26cd94902c44b77023d036fa3b9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2339,18 +2338,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!111 &3300765156863258733
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3993790407825726290}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0

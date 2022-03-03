@@ -7,7 +7,7 @@ public class cellTemplate : ScriptableObject
 {
     public new string name;
     public string modelPrefab;
-    public Color value;
+    public Material[] defaultMaterials;
     public AnimationClip anim;
 
     public void activate()

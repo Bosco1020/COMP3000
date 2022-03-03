@@ -7,10 +7,10 @@ public class organTemplate : MonoBehaviour
     public string organTag;
 
     [SerializeField]
-    private cellLayout[] views;
+    public cellLayout[] views;
 
     [SerializeField]
-    private DisplayCell display;
+    public DisplayCell display;
 
     [SerializeField]
     private CameraControl refCamera;
@@ -21,7 +21,7 @@ public class organTemplate : MonoBehaviour
 
     public Renderer[] heartMats;
 
-    //public Material FadeMat;
+    public Material[] Mats;
 
     [Range (0, 10)]
     public float idleRate = 1.0f;
@@ -34,6 +34,13 @@ public class organTemplate : MonoBehaviour
     {
         currentView = -1;
         IdleAnim.speed = idleRate;
+
+        foreach (Material mat in Mats)
+        {
+            Color tempCol = mat.color;
+            tempCol.a = 1.0f;
+            mat.SetColor("_Color", tempCol);
+        }
         //fadeOut();
     }
 
@@ -41,6 +48,7 @@ public class organTemplate : MonoBehaviour
     {
         if(speedOveride)
         {
+            //for testing purposes in inspector
             IdleAnim.speed = idleRate;
         }
 
@@ -55,18 +63,20 @@ public class organTemplate : MonoBehaviour
         }*/
     }
 
-    public List<coOrdinateSystem> returnActiveCells()
+    public List<coOrdinateSystem> returnActiveCells(int index)
     {
-        //NEEDS to check if cell is active or not
-        //Currently returns EVERY cell in organ, may be a bit much... may not tbh
+        //returns cells within specified layout
 
         List<coOrdinateSystem> allCells = new List<coOrdinateSystem>();
 
+        allCells.AddRange(views[index].returnCells());
+
+        /*
         foreach (cellLayout view in views)
         {
             //combine all groups of cells together
             allCells.AddRange(view.returnCells());
-        }
+        }*/
 
         return allCells;
     }
@@ -82,6 +92,8 @@ public class organTemplate : MonoBehaviour
         }
 
         refCamera.setTarget(views[currentView].cameraCentre.transform, views[currentView].cameraMovePoint);
+
+        StartCoroutine(fadeOutCoroutine());
     }
 
     public void spawnCell(string tag, Vector3 pos, Transform parent)
@@ -133,7 +145,14 @@ public class organTemplate : MonoBehaviour
     {
         refCamera.reset();
 
-        //yield on a new YieldInstruction that waits for 5 seconds.
+        foreach (Material mat in Mats)
+        {
+            Color tempCol = mat.color;
+            tempCol.a = 1.0f;
+            mat.SetColor("_Color", tempCol);
+        }
+
+        //yield on a new YieldInstruction that waits for 2 seconds.
         yield return new WaitForSeconds(2);
 
         foreach (Transform child in views[index].cameraCentre.transform)
@@ -144,7 +163,7 @@ public class organTemplate : MonoBehaviour
 
     IEnumerator fadeOutCoroutine()
     {
-        float count = 1.0f;
+        /*float count = 1.0f;
         Color c;
 
         while (count > 0.8f)
@@ -158,8 +177,15 @@ public class organTemplate : MonoBehaviour
             }
             count = count - 0.01f;
             Debug.Log("-----");
-        }
+        }*/
 
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(1.0f);
+
+        foreach (Material mat in Mats)
+        {
+            Color tempCol = mat.color;
+            tempCol.a = 0.01f;
+            mat.SetColor("_Color", tempCol);
+        }
     }
 }

@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Arteriole
   modelPrefab: Model C
-  value: {r: 0, g: 0.6509434, b: 0.10809952, a: 0}
+  defaultMaterials:
+  - {fileID: 2100000, guid: 1838c26cd94902c44b77023d036fa3b9, type: 2}
+  anim: {fileID: 0}
