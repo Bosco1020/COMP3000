@@ -145,6 +145,25 @@ public class organTemplate : MonoBehaviour
     {
         refCamera.reset();
 
+        //SET & SAVE
+        foreach (coOrdinateSystem cell in views[index].cells)
+        {
+            if (cell.returnChange())
+            { //only make changes if the cells has altered from the norm
+                Material[] children = cell.GetObject().GetComponentsInChildren<Material>();
+
+                for (int i = 0; i < children.Length + 1; i++)
+                {
+                    //update the co-ordiante system with the cells new material(s)
+                    Material temp = new Material(children[i].shader);
+                    temp.color = children[i].color;
+
+                    cell.setNewMaterial(temp, i);
+                }
+            }
+        }
+
+        //hardcoded materials of each cell for now
         foreach (Material mat in Mats)
         {
             Color tempCol = mat.color;
@@ -153,10 +172,11 @@ public class organTemplate : MonoBehaviour
         }
 
         //yield on a new YieldInstruction that waits for 2 seconds.
-        yield return new WaitForSeconds(2);
-
+        yield return new WaitForSeconds(1);
+        
         foreach (Transform child in views[index].cameraCentre.transform)
         {
+            //turn off all cells
             child.gameObject.SetActive(false);
         }
     }

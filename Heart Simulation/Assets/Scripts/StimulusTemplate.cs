@@ -28,6 +28,8 @@ public class StimulusTemplate : MonoBehaviour
         public bool IdleSpeedChange;
         public float speedChange;
 
+        public bool dies;
+
         public string[] spawnedCellsTags;
     }
 
@@ -163,6 +165,8 @@ public class StimulusTemplate : MonoBehaviour
     }
     }
 
+    private List<coOrdinateSystem> deletions;
+
     public void stimulateSpecific(int index, organTemplate organ) //check if already stimulated, as can't do so again unless want to make that a thing
     {
         List<coOrdinateSystem> activeCells = organ.returnActiveCells(index);
@@ -195,15 +199,20 @@ public class StimulusTemplate : MonoBehaviour
 
         foreach (coOrdinateSystem cell in activeCells)
         {// for every set of cells (per view)
+
+            //ResponsePair array = Array.FindAll(cellPairs, i => i != item).ToArray();
+
             foreach (ResponsePair pair in cellPairs)
             {//find the matching cell type and tag
 
                 //Check if within range, if not then return out of method
                 float distance = (float)Math.Sqrt(Math.Pow(StimulusSource.position.x - cell.location.x, 2) + Math.Pow(StimulusSource.position.y - cell.location.y, 2) + Math.Pow(StimulusSource.position.z - cell.location.z, 2));
-                if (pair.range != 0 && distance > pair.range) return;
+                Debug.Log(distance);
+                if (pair.range != 0 && distance > pair.range) { goto AfterLoop; }
 
                 if (pair.tag == cell.cellType)
                 {
+                    cell.setChanged(true);
                     if (pair.Responses.hasAnimation)
                     {
                         Animation temp = cell.GetObject().GetComponentInParent<Animation>();
@@ -224,11 +233,17 @@ public class StimulusTemplate : MonoBehaviour
                         temp.speed += pair.Responses.speedChange;
                     }
 
+                    if(pair.Responses.dies)
+                    {
+                        deletions.Add(cell);
+                    }
+
                     if (pair.Responses.spawnedCellsTags.Length > 0)
                     {
                         //cells are to be spawned. Specify here what/how
                         //create new coOrdiante system for each and add to layout
-                        foreach (string tag in pair.Responses.spawnedCellsTags)
+
+                        /*foreach (string tag in pair.Responses.spawnedCellsTags)
                         {
                             GameObject cellObj = new GameObject();
                             coOrdinateSystem newCell = cellObj.AddComponent<coOrdinateSystem>();
@@ -243,13 +258,19 @@ public class StimulusTemplate : MonoBehaviour
                             organ.views[index].addCell(newCell);
 
                             newCell.SetObject(organ.display.Spawn(cell.cellType, cell.location, organ.views[index].cameraCentre.transform));
-                        }
+                        }*/
 
                         //organ.IdleAnim.speed = Mathf.Clamp(organ.IdleAnim.speed + organResponse.Responses.speedChange, organ.idleRate, organ.idleRate + organResponse.Responses.speedChange);
                     }
-                }
-            }
-        }
+                } //end of tag match
+            AfterLoop:;
+            } //end pair for each loop
+        } //end of cell for each loop
+    }
+
+    public void endStimulus()
+    {
+
     }
 
     IEnumerator endStimulus(int index)

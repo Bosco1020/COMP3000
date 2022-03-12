@@ -22266,10 +22266,11 @@ MonoBehaviour:
     colour: {r: 0, g: 0, b: 0, a: 0}
     IdleSpeedChange: 0
     speedChange: 0
+    dies: 0
     spawnedCellsTags: []
   cellPairs:
   - tag: Endothelial
-    range: 100
+    range: 1
     Responses:
       hasAnimation: 1
       anim: {fileID: 7400000, guid: 01530cf82d8d61249957f540a6ddb9d5, type: 2}
@@ -22277,7 +22278,9 @@ MonoBehaviour:
       colour: {r: 0.20754719, g: 0.2065682, b: 0.2065682, a: 0}
       IdleSpeedChange: 0
       speedChange: 0
-      spawnedCellsTags: []
+      dies: 1
+      spawnedCellsTags:
+      - CollagenFibreBundle
   - tag: Fibroblast
     range: 0
     Responses:
@@ -22287,6 +22290,7 @@ MonoBehaviour:
       colour: {r: 0, g: 0, b: 0, a: 0}
       IdleSpeedChange: 0
       speedChange: 0
+      dies: 1
       spawnedCellsTags:
       - CollagenFibre
   - tag: Arteriole
@@ -22298,6 +22302,7 @@ MonoBehaviour:
       colour: {r: 0, g: 0, b: 0, a: 0}
       IdleSpeedChange: 0
       speedChange: 0
+      dies: 1
       spawnedCellsTags: []
   organs:
   - {fileID: 8603475025742407474}
@@ -22311,6 +22316,7 @@ MonoBehaviour:
       colour: {r: 0, g: 0, b: 0, a: 0}
       IdleSpeedChange: 1
       speedChange: 0.5
+      dies: 0
       spawnedCellsTags: []
 --- !u!65 &1946740256
 BoxCollider:
@@ -40965,7 +40971,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4710025406578291840}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.28, y: 0.0004172325, z: -6.43}
+  m_LocalPosition: {x: 9.61, y: 0.0004172325, z: -6.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4710025407765917086}

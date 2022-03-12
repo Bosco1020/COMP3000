@@ -11,6 +11,11 @@ public class coOrdinateSystem : MonoBehaviour
     [SerializeField]
     private GameObject objectRef;
 
+    private Material[] Mat;
+    private Material originalMat;
+
+    private bool start = true, changed = false;
+
     public float x = 1f, y = 1f, z = 1f;
 
     private void Start()
@@ -21,13 +26,58 @@ public class coOrdinateSystem : MonoBehaviour
 
     public void SetObject(GameObject cell)
     {
+        //set the reference equal to the first child
         objectRef = cell.transform.GetChild(0).gameObject;
         cell.transform.rotation = rotation;
+
+        //Runs once on the first call, saving the original material
+        if (!start)
+        {
+            originalMat = objectRef.GetComponent<Renderer>().material;
+            start = false;
+        }
+        else
+        {
+            if (!changed) { return; }
+
+            //after the first time, update the new cell with the saved material if changes are made
+            objectRef.GetComponent<Renderer>().material = Mat[0];
+
+            //If it has sub-aspectc (nuclei etc) then apply those aswell
+            if (Mat.Length > 1)
+            {
+                Material[] children = objectRef.GetComponentsInChildren<Material>();
+                for (int i = 0; i < children.Length; i++)
+                {
+                    children[i] = Mat[i + 1];
+                }
+            }
+        }
     }
 
     public GameObject GetObject()
     {
         return objectRef;
+    }
+
+    public bool returnChange()
+    {
+        return changed;
+    }
+
+    public void setChanged(bool value)
+    {
+        changed = value;
+    }
+
+    public void setNewMaterial(Material newMat, int index)
+    {
+        Mat[index] = newMat;
+    }
+
+    public Material getOriginalMaterial()
+    {
+        return originalMat;
     }
 
     void OnDrawGizmos()
