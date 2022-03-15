@@ -165,7 +165,7 @@ public class StimulusTemplate : MonoBehaviour
     }
     }
 
-    private List<coOrdinateSystem> deletions;
+    private List<coOrdinateSystem> deletions = new List < coOrdinateSystem >();
 
     public void stimulateSpecific(int index, organTemplate organ) //check if already stimulated, as can't do so again unless want to make that a thing
     {
@@ -207,7 +207,6 @@ public class StimulusTemplate : MonoBehaviour
 
                 //Check if within range, if not then return out of method
                 float distance = (float)Math.Sqrt(Math.Pow(StimulusSource.position.x - cell.location.x, 2) + Math.Pow(StimulusSource.position.y - cell.location.y, 2) + Math.Pow(StimulusSource.position.z - cell.location.z, 2));
-                Debug.Log(distance);
                 if (pair.range != 0 && distance > pair.range) { goto AfterLoop; }
 
                 if (pair.tag == cell.cellType)
@@ -270,10 +269,14 @@ public class StimulusTemplate : MonoBehaviour
 
     public void endStimulus()
     {
+        //grab all co-ordinates
+        //remove deleted ones
+        //re-scale array so no blanks
 
+        StartCoroutine(endStimulusDelay());
     }
 
-    IEnumerator endStimulus(int index)
+    IEnumerator endStimulusDelay()
     {
         
         //yield on a new YieldInstruction that waits for x seconds.

@@ -150,14 +150,16 @@ public class organTemplate : MonoBehaviour
         {
             if (cell.returnChange())
             { //only make changes if the cells has altered from the norm
-                Material[] children = cell.GetObject().GetComponentsInChildren<Material>();
+                Renderer[] childRenders = cell.GetObject().GetComponentsInChildren<Renderer>();
+                //Debug.Log(childRenders.Length);
 
-                for (int i = 0; i < children.Length + 1; i++)
+                for (int i = 0; i < childRenders.Length; i++)
                 {
+                    //Debug.Log(i);
                     //update the co-ordiante system with the cells new material(s)
-                    Material temp = new Material(children[i].shader);
-                    temp.color = children[i].color;
-
+                    Material temp = new Material(childRenders[i].material.shader);
+                    temp.color = childRenders[i].material.color;
+                    //Debug.Log(cell.getOriginalMaterial());
                     cell.setNewMaterial(temp, i);
                 }
             }

@@ -53,7 +53,7 @@ public class UiController : MonoBehaviour
         currentLayoutIndex = index;
 
         //if set to -1, then no layout currently
-        if (index == -1){ refOrgan.closeView(); return; }
+        if (index == -1){ refOrgan.closeView(); refStimulus.endStimulus(); return; }
 
         cursor.resetIcon();
         if (stimulating)

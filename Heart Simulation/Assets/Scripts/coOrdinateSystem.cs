@@ -11,7 +11,7 @@ public class coOrdinateSystem : MonoBehaviour
     [SerializeField]
     private GameObject objectRef;
 
-    private Material[] Mat;
+    private List<Material> Mat = new List<Material>();
     private Material originalMat;
 
     private bool start = true, changed = false;
@@ -31,7 +31,7 @@ public class coOrdinateSystem : MonoBehaviour
         cell.transform.rotation = rotation;
 
         //Runs once on the first call, saving the original material
-        if (!start)
+        if (start)
         {
             originalMat = objectRef.GetComponent<Renderer>().material;
             start = false;
@@ -39,17 +39,18 @@ public class coOrdinateSystem : MonoBehaviour
         else
         {
             if (!changed) { return; }
-
             //after the first time, update the new cell with the saved material if changes are made
             objectRef.GetComponent<Renderer>().material = Mat[0];
 
-            //If it has sub-aspectc (nuclei etc) then apply those aswell
-            if (Mat.Length > 1)
+            //If it has sub-aspect (nuclei etc) then apply those aswell
+            if (Mat.Count > 1)
             {
-                Material[] children = objectRef.GetComponentsInChildren<Material>();
-                for (int i = 0; i < children.Length; i++)
+                Renderer[] children = objectRef.GetComponentsInChildren<Renderer>();
+                for (int i = 0; i < children.Length -1; i++)
                 {
-                    children[i] = Mat[i + 1];
+                    Debug.Log(i); Debug.Log(children.Length);
+                    //we skip the parents material, so apply the new materials counting from array locaiton 1
+                    children[i +1].material = Mat[i + 1];
                 }
             }
         }
@@ -72,7 +73,21 @@ public class coOrdinateSystem : MonoBehaviour
 
     public void setNewMaterial(Material newMat, int index)
     {
-        Mat[index] = newMat;
+        //check whether the list has been initialised or not,
+        //decides whetehr updating current values or adding to list
+
+        if (Mat.Count >= index +1)
+        {
+            //if it exists, then update
+            Mat[index] = (new Material(newMat.shader));
+        }
+        else
+        {
+            Mat.Add(new Material(newMat.shader));
+            Mat[index].SetFloat("_Mode", 2); //Set material to Fade
+        }
+
+        Mat[index].color = newMat.color;
     }
 
     public Material getOriginalMaterial()
