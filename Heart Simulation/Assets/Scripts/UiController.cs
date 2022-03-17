@@ -50,12 +50,28 @@ public class UiController : MonoBehaviour
     public void updateCurrentLayout(int index)
     {
         // Player has clicked on a selection icon
+
+        //if set to -1, then exiting from layout
+        if (index == -1 && currentLayoutIndex != -1) //check if any change
+        {
+            currentLayoutIndex = index;
+            refOrgan.closeView();
+
+            try
+            {
+                refStimulus.endStimulus(refOrgan, currentLayoutIndex);
+            }
+            catch (System.Exception)
+            {
+                return;
+            }
+            
+            return; 
+        }
+
         currentLayoutIndex = index;
-
-        //if set to -1, then no layout currently
-        if (index == -1){ refOrgan.closeView(); refStimulus.endStimulus(); return; }
-
         cursor.resetIcon();
+
         if (stimulating)
         {
             // if stimulus selected, then trigger at location

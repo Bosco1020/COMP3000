@@ -16,6 +16,7 @@ public class coOrdinateSystem : MonoBehaviour
 
     private bool start = true, changed = false;
 
+    [Header ("Control Gizmo Size")]
     public float x = 1f, y = 1f, z = 1f;
 
     private void Start()

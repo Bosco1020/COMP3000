@@ -51,7 +51,6 @@ public class organTemplate : MonoBehaviour
             //for testing purposes in inspector
             IdleAnim.speed = idleRate;
         }
-
         
         /*
         if(fadingOut)
@@ -80,6 +79,21 @@ public class organTemplate : MonoBehaviour
 
         return allCells;
     }
+
+    public void removeActiveCells(List<coOrdinateSystem> deletions)
+    {
+        for (int i = 0; i < 5; i++)
+        {
+            Debug.Log(deletions[i]);
+        }
+
+        views[currentView].removeCell(deletions);
+
+        List<cellLayout> gameObjectList = new List<cellLayout>(views);
+        gameObjectList.RemoveAll(x => x == null);
+        views = gameObjectList.ToArray();
+    }
+
 
     public void showView(int index)
     {
@@ -144,23 +158,23 @@ public class organTemplate : MonoBehaviour
     IEnumerator resetCoroutine(int index)
     {
         refCamera.reset();
+        coOrdinateSystem[] cell = views[index].returnCells();
 
         //SET & SAVE
-        foreach (coOrdinateSystem cell in views[index].cells)
+        for (int i = 0; i < cell.Length; i++)
         {
-            if (cell.returnChange())
+            if (cell[i].returnChange())
             { //only make changes if the cells has altered from the norm
-                Renderer[] childRenders = cell.GetObject().GetComponentsInChildren<Renderer>();
+                Renderer[] childRenders = cell[i].GetObject().GetComponentsInChildren<Renderer>();
                 //Debug.Log(childRenders.Length);
 
-                for (int i = 0; i < childRenders.Length; i++)
+                for (int x = 0; x < childRenders.Length; x++)
                 {
-                    //Debug.Log(i);
                     //update the co-ordiante system with the cells new material(s)
-                    Material temp = new Material(childRenders[i].material.shader);
-                    temp.color = childRenders[i].material.color;
+                    Material temp = new Material(childRenders[x].material.shader);
+                    temp.color = childRenders[x].material.color;
                     //Debug.Log(cell.getOriginalMaterial());
-                    cell.setNewMaterial(temp, i);
+                    cell[i].setNewMaterial(temp, x);
                 }
             }
         }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class cellLayout : MonoBehaviour
 {
@@ -21,11 +22,19 @@ public class cellLayout : MonoBehaviour
 
     public void addCell(coOrdinateSystem addition)
     {
-        coOrdinateSystem[] temp = new coOrdinateSystem[cells.Length + 1];
-        temp[cells.Length] = addition;
-        cells = new coOrdinateSystem[cells.Length + 1];
-        cells = temp;
+        List<coOrdinateSystem> temp = new List<coOrdinateSystem>(cells);
+        temp.Add(addition);
 
-        //cells[cells.Length] = addition;
+        cells = temp.ToArray();
+    }
+
+    public void removeCell(List<coOrdinateSystem> deletions)
+    {
+        foreach (coOrdinateSystem cell in deletions)
+        {
+            //re-formats array to contain everything but the deleted cells
+            cells = cells.Where(e => e != cell).ToArray();
+            Destroy(cell.gameObject);
+        }
     }
 }

@@ -825,7 +825,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-501094
+  m_Name: pb_Mesh-57444
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1487,7 +1487,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-500864
+  m_Name: pb_Mesh-57324
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1934,7 +1934,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-500924
+  m_Name: pb_Mesh-57384
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3198,7 +3198,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-505846
+  m_Name: pb_Mesh40428
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4909,7 +4909,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-501082
+  m_Name: pb_Mesh-57432
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5252,7 +5252,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh53280
+  m_Name: pb_Mesh39832
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14093,7 +14093,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh54016
+  m_Name: pb_Mesh40608
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18646,7 +18646,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16662
+  m_Name: pb_Mesh39212
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -19273,7 +19273,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-505550
+  m_Name: pb_Mesh40472
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20961,7 +20961,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-501118
+  m_Name: pb_Mesh-57468
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21125,7 +21125,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh52878
+  m_Name: pb_Mesh39410
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22256,9 +22256,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StimulusName: Heart Attack
   duration: 10
-  cellMatSet: {fileID: 2100000, guid: 5f3ff5d91f139eb4ebc23294a3dc5b7f, type: 2}
   cursorIcon: {fileID: 21300000, guid: b3149bb74b07a864c980109748860bbd, type: 3}
   StimulusSource: {fileID: 4710025406578291852}
+  coOrdiantePrefab: {fileID: 9053091381984360551, guid: be7fbe819d6034d4099f5ecf894963c1, type: 3}
   effects:
     hasAnimation: 0
     anim: {fileID: 0}
@@ -22270,7 +22270,7 @@ MonoBehaviour:
     spawnedCellsTags: []
   cellPairs:
   - tag: Endothelial
-    range: 1
+    range: 1.5
     Responses:
       hasAnimation: 1
       anim: {fileID: 7400000, guid: 01530cf82d8d61249957f540a6ddb9d5, type: 2}
@@ -22280,9 +22280,18 @@ MonoBehaviour:
       speedChange: 0
       dies: 1
       spawnedCellsTags:
-      - CollagenFibreBundle
+      - tag: CollagenFibres
+        Responses:
+          hasAnimation: 1
+          anim: {fileID: 7400000, guid: cc6ce139a7ce2e945a3d6619de795b50, type: 2}
+          changeColour: 0
+          colour: {r: 0, g: 0, b: 0, a: 0}
+          IdleSpeedChange: 0
+          speedChange: 0
+          dies: 0
+          spawnedCellsTags: []
   - tag: Fibroblast
-    range: 0
+    range: 1.5
     Responses:
       hasAnimation: 0
       anim: {fileID: 0}
@@ -22292,9 +22301,18 @@ MonoBehaviour:
       speedChange: 0
       dies: 1
       spawnedCellsTags:
-      - CollagenFibre
+      - tag: CollagenFibreBundle
+        Responses:
+          hasAnimation: 1
+          anim: {fileID: 7400000, guid: cc6ce139a7ce2e945a3d6619de795b50, type: 2}
+          changeColour: 0
+          colour: {r: 0, g: 0, b: 0, a: 0}
+          IdleSpeedChange: 0
+          speedChange: 0
+          dies: 0
+          spawnedCellsTags: []
   - tag: Arteriole
-    range: 100
+    range: 10
     Responses:
       hasAnimation: 1
       anim: {fileID: 7400000, guid: dad0d0300b3253944811f9c520d7828d, type: 2}
@@ -22303,7 +22321,17 @@ MonoBehaviour:
       IdleSpeedChange: 0
       speedChange: 0
       dies: 1
-      spawnedCellsTags: []
+      spawnedCellsTags:
+      - tag: CollagenFibres
+        Responses:
+          hasAnimation: 1
+          anim: {fileID: 7400000, guid: cc6ce139a7ce2e945a3d6619de795b50, type: 2}
+          changeColour: 0
+          colour: {r: 0, g: 0, b: 0, a: 0}
+          IdleSpeedChange: 0
+          speedChange: 0
+          dies: 0
+          spawnedCellsTags: []
   organs:
   - {fileID: 8603475025742407474}
   organPairs:
@@ -22461,7 +22489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62466a6ba28ba0a4eaa285757cce22de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainIcon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  mainIcon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 3}
 --- !u!212 &1969472491
 SpriteRenderer:
   m_ObjectHideFlags: 0
