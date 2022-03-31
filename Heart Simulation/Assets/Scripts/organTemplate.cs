@@ -70,22 +70,20 @@ public class organTemplate : MonoBehaviour
 
         allCells.AddRange(views[index].returnCells());
 
-        /*
-        foreach (cellLayout view in views)
-        {
-            //combine all groups of cells together
-            allCells.AddRange(view.returnCells());
-        }*/
-
         return allCells;
+    }
+
+    public Transform returnStimulusCentre(int index)
+    {
+        return views[index].cameraCentre.transform;
     }
 
     public void removeActiveCells(List<coOrdinateSystem> deletions)
     {
-        for (int i = 0; i < 5; i++)
+        /*for (int i = 0; i < 5; i++)
         {
             Debug.Log(deletions[i]);
-        }
+        }*/
 
         views[currentView].removeCell(deletions);
 

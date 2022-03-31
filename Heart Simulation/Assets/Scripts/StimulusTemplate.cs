@@ -84,7 +84,7 @@ public class StimulusTemplate : MonoBehaviour
 
     public Sprite cursorIcon;
 
-    public Transform StimulusSource;
+    private Transform StimulusSource;
 
     public GameObject coOrdiantePrefab;
 
@@ -208,6 +208,8 @@ public class StimulusTemplate : MonoBehaviour
     {
         List<coOrdinateSystem> activeCells = organ.returnActiveCells(index);
 
+        StimulusSource = organ.returnStimulusCentre(index);
+
         foreach (ResponsePair organResponse in organPairs)
         {//First find the matching organs and their responses
             if (organ.organTag == organResponse.tag)
@@ -279,13 +281,27 @@ public class StimulusTemplate : MonoBehaviour
             Animation temp = cell.GetComponentInParent<Animation>();
             temp.AddClip(pair.returnResponses().anim, StimulusName + ", " + pair.returnTag());
             temp.Play(StimulusName + ", " + pair.returnTag());
-            Debug.Log("hasAnim" + temp.gameObject);
         }
 
         if (pair.returnResponses().changeColour)
         {
-            Material temp = cell.GetComponentInParent<Material>();
-            temp.color = pair.returnResponses().colour;
+            List<Material> temp = new List<Material>();
+            if (isOrgan)
+            {
+                foreach (Renderer rend in cell.GetComponentsInChildren<Renderer>())
+                {
+                    temp.Add(rend.material);
+                }
+            }
+            else
+            {
+                temp.Add(cell.GetComponentInParent<Renderer>().material);
+            }
+
+            for (int i = 0; i < temp.Count; i++)
+            {
+                temp[i].color = pair.returnResponses().colour;
+            }
         }
 
         if (pair.returnResponses().IdleSpeedChange)

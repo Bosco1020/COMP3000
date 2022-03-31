@@ -57,6 +57,18 @@ public class coOrdinateSystem : MonoBehaviour
         }
     }
 
+    public List<Material> returnCurrentMat()
+    {
+        if(changed)
+        {
+            return Mat;
+        }
+
+        List<Material> temp = new List<Material>();
+        temp.Add(originalMat);
+        return temp;
+    }
+
     public GameObject GetObject()
     {
         return objectRef;
