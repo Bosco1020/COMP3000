@@ -95,6 +95,7 @@ public class organTemplate : MonoBehaviour
 
     public void showView(int index)
     {
+        //when exiting zoom, twice, calls this method which breaks line 100
         currentView = index;
         coOrdinateSystem[] temp = views[currentView].returnCells();
 
@@ -173,6 +174,14 @@ public class organTemplate : MonoBehaviour
                     temp.color = childRenders[x].material.color;
                     //Debug.Log(cell.getOriginalMaterial());
                     cell[i].setNewMaterial(temp, x);
+                }
+
+                //reset the object's material to go back into the pool
+                Renderer[] revert = cell[i].returnRenderers().ToArray();
+
+                for (int a = 0; a < revert.Length; a++)
+                {
+                    revert[a].material = cell[i].getOriginalMaterial(a);
                 }
             }
         }

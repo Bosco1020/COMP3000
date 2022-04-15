@@ -50,9 +50,10 @@ public class UiController : MonoBehaviour
     public void updateCurrentLayout(int index)
     {
         // Player has clicked on a selection icon
+        if (index == -1 && currentLayoutIndex == -1) return;
 
-        //if set to -1, then exiting from layout
-        if (index == -1 && currentLayoutIndex != -1) //check if any change
+            //if set to -1, then exiting from layout
+            if (index == -1 && currentLayoutIndex != -1) //check if any change
         {
             currentLayoutIndex = index;
             refOrgan.closeView();

@@ -300,7 +300,15 @@ public class StimulusTemplate : MonoBehaviour
 
             for (int i = 0; i < temp.Count; i++)
             {
-                temp[i].color = pair.returnResponses().colour;
+                if(isOrgan)
+                {
+                    temp[i].color = pair.returnResponses().colour;
+                    return;
+                }
+
+                Material mat = new Material(temp[i].shader);
+                mat.color = pair.returnResponses().colour;
+                coOrd.setNewMaterial(mat, 0);
             }
         }
 

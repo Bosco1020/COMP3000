@@ -11,8 +11,8 @@ public class coOrdinateSystem : MonoBehaviour
     [SerializeField]
     private GameObject objectRef;
 
-    private List<Material> Mat = new List<Material>();
-    private Material originalMat;
+    private List<Material> newMats = new List<Material>();
+    public List<Material> originalMat = new List<Material>();
 
     private bool start = true, changed = false;
 
@@ -34,24 +34,28 @@ public class coOrdinateSystem : MonoBehaviour
         //Runs once on the first call, saving the original material
         if (start)
         {
-            originalMat = objectRef.GetComponent<Renderer>().material;
+            Renderer[] temp = cell.GetComponentsInChildren<Renderer>();
+
+            for (int i = 0; i < temp.Length; i++)
+            {
+                originalMat.Add(temp[i].material);
+            }
             start = false;
         }
         else
         {
             if (!changed) { return; }
             //after the first time, update the new cell with the saved material if changes are made
-            objectRef.GetComponent<Renderer>().material = Mat[0];
+            objectRef.GetComponent<Renderer>().material = newMats[0];
 
             //If it has sub-aspect (nuclei etc) then apply those aswell
-            if (Mat.Count > 1)
+            if (newMats.Count > 1)
             {
                 Renderer[] children = objectRef.GetComponentsInChildren<Renderer>();
                 for (int i = 0; i < children.Length -1; i++)
                 {
-                    Debug.Log(i); Debug.Log(children.Length);
                     //we skip the parents material, so apply the new materials counting from array locaiton 1
-                    children[i +1].material = Mat[i + 1];
+                    children[i +1].material = newMats[i + 1];
                 }
             }
         }
@@ -61,12 +65,10 @@ public class coOrdinateSystem : MonoBehaviour
     {
         if(changed)
         {
-            return Mat;
+            return newMats;
         }
 
-        List<Material> temp = new List<Material>();
-        temp.Add(originalMat);
-        return temp;
+        return originalMat;
     }
 
     public GameObject GetObject()
@@ -87,25 +89,48 @@ public class coOrdinateSystem : MonoBehaviour
     public void setNewMaterial(Material newMat, int index)
     {
         //check whether the list has been initialised or not,
-        //decides whetehr updating current values or adding to list
+        //decides whether updating current values or adding to list
 
-        if (Mat.Count >= index +1)
+        if (newMats.Count >= index +1)
         {
             //if it exists, then update
-            Mat[index] = (new Material(newMat.shader));
+            newMats[index] = (new Material(newMat.shader));
         }
         else
         {
-            Mat.Add(new Material(newMat.shader));
-            Mat[index].SetFloat("_Mode", 2); //Set material to Fade
+            newMats.Add(new Material(newMat.shader));
+            newMats[index].SetFloat("_Mode", 2); //Set material to Fade
         }
 
-        Mat[index].color = newMat.color;
+        newMats[index].color = newMat.color;
+
+        if(index == 0)
+        {//if 0, the aplying to parent material
+            objectRef.GetComponent<Renderer>().material = newMats[index];
+        }
+        else
+        {
+            Renderer[] temp = objectRef.GetComponentsInChildren<Renderer>();
+            temp[index - 1].material = newMats[index];
+        }
     }
 
-    public Material getOriginalMaterial()
+    public Material getOriginalMaterial(int index)
     {
-        return originalMat;
+        return originalMat[index];
+    }
+
+    public List<Renderer> returnRenderers()
+    {
+        List<Renderer> temp = new List<Renderer>();
+
+        temp.Add(objectRef.GetComponent<Renderer>());
+        if(temp[0] != objectRef.GetComponentInChildren<Renderer>())
+        {
+            temp.AddRange(objectRef.GetComponentsInChildren<Renderer>());
+        }
+
+        return temp;
     }
 
     void OnDrawGizmos()

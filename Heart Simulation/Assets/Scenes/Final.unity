@@ -170,6 +170,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -220,6 +221,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -270,6 +272,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -320,6 +323,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -370,6 +374,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -420,6 +425,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -470,6 +476,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -520,6 +527,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -570,6 +578,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -620,6 +629,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -670,6 +680,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -816,6 +827,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -1030,6 +1042,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -1178,6 +1191,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -1228,6 +1242,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -1278,6 +1293,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -1328,6 +1344,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -1378,6 +1395,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -1428,6 +1446,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -1478,6 +1497,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -1487,7 +1507,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-57324
+  m_Name: pb_Mesh-1230
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1692,6 +1712,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -1742,6 +1763,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Arteriole
   objectRef: {fileID: 0}
+  originalMat: []
   x: 1.4
   y: 1.4
   z: 1.4
@@ -1792,6 +1814,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -1934,7 +1957,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-57384
+  m_Name: pb_Mesh-1290
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2139,6 +2162,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -2189,6 +2213,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -2239,6 +2264,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -2289,6 +2315,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -2339,6 +2366,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -2389,6 +2417,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -2439,6 +2468,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -2489,6 +2519,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -2539,6 +2570,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -2589,6 +2621,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -2639,6 +2672,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -2689,6 +2723,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -2739,6 +2774,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -2789,6 +2825,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -2839,6 +2876,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -2889,6 +2927,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -2939,6 +2978,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -2989,6 +3029,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -3039,6 +3080,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -3089,6 +3131,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -3139,6 +3182,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -3189,6 +3233,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -3403,6 +3448,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -3453,6 +3499,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -3503,6 +3550,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -3585,6 +3633,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -3635,6 +3684,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -3690,6 +3740,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -3740,6 +3791,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -3778,7 +3830,7 @@ Transform:
   - {fileID: 91956399}
   - {fileID: 1047579830}
   m_Father: {fileID: 7078316642047795267}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &412516122
 MonoBehaviour:
@@ -3842,6 +3894,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -3892,6 +3945,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -3942,6 +3996,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -3992,6 +4047,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -4042,6 +4098,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -4092,6 +4149,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -4142,6 +4200,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -4192,6 +4251,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -4242,6 +4302,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -4292,6 +4353,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -4342,6 +4404,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -4392,6 +4455,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -4466,6 +4530,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -4516,6 +4581,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -4566,6 +4632,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -4616,6 +4683,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -4800,6 +4868,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -4850,6 +4919,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -4900,6 +4970,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -5193,6 +5264,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -5243,6 +5315,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -5252,7 +5325,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh39832
+  m_Name: pb_Mesh17302
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5457,6 +5530,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -5507,6 +5581,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -5557,6 +5632,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -5607,6 +5683,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -5657,6 +5734,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -5707,6 +5785,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -5757,6 +5836,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -5992,6 +6072,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -6042,6 +6123,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -6092,6 +6174,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -6125,7 +6208,7 @@ Transform:
   - {fileID: 4211167168726992925}
   - {fileID: 1819231106}
   m_Father: {fileID: 4710025407765917086}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &665805394
 GameObject:
@@ -6174,6 +6257,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -6317,6 +6401,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -6367,6 +6452,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -6417,6 +6503,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -6467,6 +6554,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -6517,6 +6605,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -6567,6 +6656,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -6617,6 +6707,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -9456,6 +9547,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -9506,6 +9598,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -9556,6 +9649,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -9606,6 +9700,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -9656,6 +9751,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -9706,6 +9802,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -9756,6 +9853,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -9806,6 +9904,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -9856,6 +9955,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -9906,6 +10006,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -9956,6 +10057,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -10006,6 +10108,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -10056,6 +10159,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -10106,6 +10210,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -10156,6 +10261,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -10206,6 +10312,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -10441,6 +10548,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -10491,6 +10599,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -10541,6 +10650,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -10591,6 +10701,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -10641,6 +10752,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -10723,6 +10835,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -10773,6 +10886,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -10823,6 +10937,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -10873,6 +10988,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -10923,6 +11039,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -10973,6 +11090,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -11023,6 +11141,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -11073,6 +11192,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -11123,6 +11243,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -11173,6 +11294,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -11223,6 +11345,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -11273,6 +11396,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -11323,6 +11447,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -11373,6 +11498,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -11423,6 +11549,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -11473,6 +11600,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -11523,6 +11651,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -11573,6 +11702,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -11623,6 +11753,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -11673,6 +11804,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -11802,6 +11934,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -11852,6 +11985,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -11941,6 +12075,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -11991,6 +12126,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -12041,6 +12177,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -12312,6 +12449,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -12362,6 +12500,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -12412,6 +12551,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -12497,6 +12637,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -12547,6 +12688,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -12597,6 +12739,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -12647,6 +12790,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Arteriole
   objectRef: {fileID: 0}
+  originalMat: []
   x: 1.4
   y: 1.4
   z: 1.4
@@ -12730,6 +12874,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -12780,6 +12925,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -12818,7 +12964,7 @@ Transform:
   - {fileID: 1232004825}
   - {fileID: 1195399835}
   m_Father: {fileID: 7078316642047795267}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1100081971
 MonoBehaviour:
@@ -12882,6 +13028,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -12932,6 +13079,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -13279,7 +13427,7 @@ Transform:
   m_LocalScale: {x: 300, y: 300, z: 300}
   m_Children: []
   m_Father: {fileID: 4710025407765917086}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1151486292
 BoxCollider:
@@ -13390,6 +13538,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -13440,6 +13589,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -13519,6 +13669,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -13569,6 +13720,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -13661,6 +13813,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -13711,6 +13864,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -13761,6 +13915,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -13811,6 +13966,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -13861,6 +14017,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -13911,6 +14068,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Arteriole
   objectRef: {fileID: 0}
+  originalMat: []
   x: 1.4
   y: 1.4
   z: 1.4
@@ -14142,6 +14300,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -14192,6 +14351,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -14242,6 +14402,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -14251,7 +14412,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh18062
+  m_Name: pb_Mesh18090
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14456,6 +14617,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -14672,6 +14834,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -14722,6 +14885,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -14772,6 +14936,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -14822,6 +14987,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -14872,6 +15038,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -14922,6 +15089,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -14972,6 +15140,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15022,6 +15191,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15072,6 +15242,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15122,6 +15293,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15172,6 +15344,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15222,6 +15395,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15272,6 +15446,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15322,6 +15497,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15467,6 +15643,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15517,6 +15694,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15567,6 +15745,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15617,6 +15796,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15667,6 +15847,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15717,6 +15898,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -15767,6 +15949,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15817,6 +16000,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15867,6 +16051,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15917,6 +16102,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -15967,6 +16153,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -16017,6 +16204,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -16067,6 +16255,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -16117,6 +16306,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -16167,6 +16357,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -16312,6 +16503,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -16362,6 +16554,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -16412,6 +16605,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -16462,6 +16656,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -16512,6 +16707,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -16562,6 +16758,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -16612,6 +16809,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -16662,6 +16860,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -16712,6 +16911,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Arteriole
   objectRef: {fileID: 0}
+  originalMat: []
   x: 1.4
   y: 1.4
   z: 1.4
@@ -16762,6 +16962,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -16812,6 +17013,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -16862,6 +17064,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -16912,6 +17115,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -16962,6 +17166,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17012,6 +17217,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17062,6 +17268,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17112,6 +17319,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17162,6 +17370,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17307,6 +17516,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17362,6 +17572,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -17412,6 +17623,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17462,6 +17674,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17489,14 +17702,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519560433}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 3.54, z: -18.949}
-  m_LocalScale: {x: 0.0035999701, y: 0.0035999718, z: 0.0035999718}
+  m_LocalPosition: {x: -206.10628, y: 6802.914, z: -31253.902}
+  m_LocalScale: {x: 7.19994, y: 7.1999435, z: 7.1999435}
   m_Children:
   - {fileID: 1124067375}
   - {fileID: 1182222200}
   - {fileID: 1875319651}
-  m_Father: {fileID: 7078316642047795267}
-  m_RootOrder: 1
+  m_Father: {fileID: 4710025407765917086}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1525253692
 GameObject:
@@ -17545,6 +17758,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17595,6 +17809,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17645,6 +17860,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17695,6 +17911,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17745,6 +17962,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17795,6 +18013,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17845,6 +18064,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17895,6 +18115,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17945,6 +18166,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -17995,6 +18217,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -18045,6 +18268,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -18095,6 +18319,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -18145,6 +18370,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -18195,6 +18421,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -18245,6 +18472,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -18295,6 +18523,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -18345,6 +18574,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -18395,6 +18625,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -18445,6 +18676,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -18495,6 +18727,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -18545,6 +18778,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -18595,6 +18829,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -18645,6 +18880,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -18695,6 +18931,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -18745,6 +18982,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -18795,6 +19033,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -18804,7 +19043,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh39212
+  m_Name: pb_Mesh16666
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -19050,6 +19289,17 @@ MonoBehaviour:
       speedChange: 0
       dies: 0
       spawnedCellsTags: []
+  - tag: Fibroblast
+    range: 10
+    Responses:
+      hasAnimation: 0
+      anim: {fileID: 0}
+      changeColour: 1
+      colour: {r: 0, g: 0.41886997, b: 1, a: 1}
+      IdleSpeedChange: 0
+      speedChange: 0
+      dies: 0
+      spawnedCellsTags: []
   organs:
   - {fileID: 8603475025742407474}
   organPairs:
@@ -19205,6 +19455,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -19568,6 +19819,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -19618,6 +19870,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -19832,6 +20085,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -19882,6 +20136,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -19932,6 +20187,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -20295,6 +20551,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -20411,6 +20668,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -20461,6 +20719,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -20511,6 +20770,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -20906,6 +21166,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -20956,6 +21217,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -21006,6 +21268,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -21056,6 +21319,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -21106,6 +21370,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -21156,6 +21421,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -21206,6 +21472,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -21256,6 +21523,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -21306,6 +21574,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Arteriole
   objectRef: {fileID: 0}
+  originalMat: []
   x: 1.4
   y: 1.4
   z: 1.4
@@ -21479,7 +21748,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh39410
+  m_Name: pb_Mesh16864
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21684,6 +21953,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -21734,6 +22004,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -21784,6 +22055,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -21839,6 +22111,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -21889,6 +22162,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -21968,6 +22242,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -22018,6 +22293,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -22068,6 +22344,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -22118,6 +22395,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -22209,8 +22487,8 @@ MonoBehaviour:
       speedChange: 0
       dies: 0
       spawnedCellsTags: []
-  - tag: Fibroblasts
-    range: 0
+  - tag: Fibroblast
+    range: 10
     Responses:
       hasAnimation: 0
       anim: {fileID: 0}
@@ -22375,6 +22653,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -22615,6 +22894,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -22665,6 +22945,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -22966,6 +23247,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -23016,6 +23298,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -23162,6 +23445,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -23312,6 +23596,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -23362,6 +23647,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -23692,6 +23978,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -23742,6 +24029,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -23792,6 +24080,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -23842,6 +24131,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -23892,6 +24182,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -23942,6 +24233,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -23992,6 +24284,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -24042,6 +24335,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -24092,6 +24386,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -24142,6 +24437,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -24192,6 +24488,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -40579,6 +40876,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -40629,6 +40927,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -40679,6 +40978,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -40729,6 +41029,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -40811,6 +41112,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -40861,6 +41163,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -40911,6 +41214,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -41091,6 +41395,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Arteriole
   objectRef: {fileID: 0}
+  originalMat: []
   x: 1.4
   y: 1.4
   z: 1.4
@@ -41511,7 +41816,7 @@ Transform:
   - {fileID: 1625837624}
   - {fileID: 1451195530}
   m_Father: {fileID: 4710025407765917086}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4710025406574610313
 GameObject:
@@ -41573,7 +41878,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4710025407765917086}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &4710025406578291854
 MeshRenderer:
@@ -41640,6 +41945,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -41754,7 +42060,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4710025407765917086}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &4710025406801067775
 BoxCollider:
@@ -41785,6 +42091,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -41862,6 +42169,7 @@ Transform:
   m_LocalPosition: {x: 0.10305314, y: 0.13854292, z: -3.32205}
   m_LocalScale: {x: 0.0005, y: 0.0005, z: 0.0005}
   m_Children:
+  - {fileID: 1519560434}
   - {fileID: 1151486291}
   - {fileID: 4710025406801067774}
   - {fileID: 4710025406578291852}
@@ -41869,7 +42177,7 @@ Transform:
   - {fileID: 4710025406574610038}
   - {fileID: 4710025408017073946}
   m_Father: {fileID: 7078316642047795267}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4710025407830628321
 GameObject:
@@ -41918,6 +42226,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Fibroblast
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.15
   y: 0.22
   z: 0.52
@@ -41951,6 +42260,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -41988,7 +42298,7 @@ Transform:
   - {fileID: 1675004694}
   - {fileID: 466459060}
   m_Father: {fileID: 4710025407765917086}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4710025408017073949
 GameObject:
@@ -42036,6 +42346,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -42103,6 +42414,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cellType: Endothelial
   objectRef: {fileID: 0}
+  originalMat: []
   x: 0.54
   y: 0.51
   z: 0.79
@@ -42233,7 +42545,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8948228458230742410}
-  - {fileID: 1519560434}
   - {fileID: 4710025407765917086}
   - {fileID: 412516121}
   - {fileID: 1100081970}
