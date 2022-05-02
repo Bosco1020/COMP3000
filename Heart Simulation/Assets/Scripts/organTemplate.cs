@@ -186,7 +186,7 @@ public class organTemplate : MonoBehaviour
             }
         }
 
-        //hardcoded materials of each cell for now
+        //reset alpha for each material
         foreach (Material mat in Mats)
         {
             Color tempCol = mat.color;

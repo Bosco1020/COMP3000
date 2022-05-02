@@ -88,7 +88,7 @@ public class StimulusTemplate : MonoBehaviour
 
     public GameObject coOrdiantePrefab;
 
-    public data effects;
+    //public data effects;      Delete??????????
 
     public List<ResponsePair> cellPairs;
 

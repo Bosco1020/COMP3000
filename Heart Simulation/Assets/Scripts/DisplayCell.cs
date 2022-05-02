@@ -49,7 +49,7 @@ public class DisplayCell : MonoBehaviour
             {
                 model = template.modelPrefab;
 
-                try
+                try 
                 {
                     //can't recognise when doesn't exist
                     //clip = template.anim;
