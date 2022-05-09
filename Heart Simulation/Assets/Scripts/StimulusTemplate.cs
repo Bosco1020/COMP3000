@@ -76,7 +76,8 @@ public class StimulusTemplate : MonoBehaviour
     }
     #endregion
 
-    public string StimulusName;
+    //public string StimulusName;
+    public stringSO StimulusName;
 
     public float duration = 10.0f;
 
@@ -272,6 +273,7 @@ public class StimulusTemplate : MonoBehaviour
             AfterLoop:;
             } //end pair for each loop
         } //end of cell for each loop
+        StartCoroutine(endStimulusDelay(organ)); // set the duration of the stimulus to then undo any temporary changes
     }
 
     public void checkResponses(Ipairs pair, bool isOrgan, GameObject cell, organTemplate organ = default, coOrdinateSystem coOrd = default)
@@ -331,7 +333,7 @@ public class StimulusTemplate : MonoBehaviour
         }
     }
 
-    public void endStimulus(organTemplate organ, int index)
+    public void endStimulus(organTemplate organ)
     {
         //grab all co-ordinates
         //remove deleted ones
@@ -340,15 +342,16 @@ public class StimulusTemplate : MonoBehaviour
         organ.removeActiveCells(deletions);
         
         deletions.Clear();
-
-        //StartCoroutine(endStimulusDelay());
     }
 
-    IEnumerator endStimulusDelay()
+    IEnumerator endStimulusDelay(organTemplate organ)
     {
         //yield on a new YieldInstruction that waits for x seconds.
         yield return new WaitForSeconds(duration);
 
+        endStimulus(organ);
+        organ.IdleAnim.speed = organ.idleRate;
+        Debug.Log("ended");
         // end stmulus here
     }
 }

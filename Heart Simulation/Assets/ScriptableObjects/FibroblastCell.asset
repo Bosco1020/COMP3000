@@ -18,3 +18,11 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 67d39d629a572024bac47ab0165d2ad9, type: 2}
   - {fileID: 2100000, guid: db273850159a47a49aa6170bee4e950d, type: 2}
   anim: {fileID: 0}
+  defaultText: Cardiac Fibroblasts help maintain the extracellular matrix, the fluid
+    around the cells. There is still a lot of research into learning more about them
+    and their methods of response.
+  responseText:
+  - triggeringSimulus: {fileID: 11400000, guid: cf5fb77f677160740882243ed03e79c5, type: 2}
+    text: Triggered by the death of nearby cells, Fibroblasts absorb contents from
+      dying muscle, endothelial and other cells to turn into Myofibroblasts. These
+      cells produce collagen fibres to form a scar over the dead zone.

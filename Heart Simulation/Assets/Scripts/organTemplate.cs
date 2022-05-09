@@ -26,9 +26,7 @@ public class organTemplate : MonoBehaviour
     [Range (0, 10)]
     public float idleRate = 1.0f;
 
-    public bool speedOveride = false;
-
-    //private bool fadingOut = false;
+    public string defaultText;
 
     void Start()
     {
@@ -42,24 +40,6 @@ public class organTemplate : MonoBehaviour
             mat.SetColor("_Color", tempCol);
         }
         //fadeOut();
-    }
-
-    void Update()
-    {
-        if(speedOveride)
-        {
-            //for testing purposes in inspector
-            IdleAnim.speed = idleRate;
-        }
-        
-        /*
-        if(fadingOut)
-        {
-            foreach (Renderer mat in heartMats)
-            {
-                mat.material.Lerp(mat.material, FadeMat, 1.0f * Time.deltaTime);
-            }  
-        }*/
     }
 
     public List<coOrdinateSystem> returnActiveCells(int index)

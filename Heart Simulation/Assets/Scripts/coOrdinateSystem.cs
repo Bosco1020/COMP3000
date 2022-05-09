@@ -31,6 +31,8 @@ public class coOrdinateSystem : MonoBehaviour
         objectRef = cell.transform.GetChild(0).gameObject;
         cell.transform.rotation = rotation;
 
+        objectRef.GetComponent<ObjToCellLink>().setLink(this);
+
         //Runs once on the first call, saving the original material
         if (start)
         {

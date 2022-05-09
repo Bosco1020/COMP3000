@@ -60,9 +60,10 @@ GameObject:
   - component: {fileID: 2888532997129756343}
   - component: {fileID: 6562541220885767727}
   - component: {fileID: 8054041432768955179}
+  - component: {fileID: 9194723606573978385}
   m_Layer: 0
   m_Name: Arteriole
-  m_TagString: Untagged
+  m_TagString: Cell
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2338,3 +2339,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &9194723606573978385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3993790407825726290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b2e21de6c3ab545809946d4a4a6ebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

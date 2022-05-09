@@ -17,3 +17,9 @@ MonoBehaviour:
   defaultMaterials:
   - {fileID: 2100000, guid: 751855feedd014c49b9ba42002c94560, type: 2}
   anim: {fileID: 0}
+  defaultText: Stands of collagen that interlock with one another. Produced from
+    Myofibroblasts, these stands fill the dead zone to create a scar.
+  responseText:
+  - triggeringSimulus: {fileID: 11400000, guid: cf5fb77f677160740882243ed03e79c5, type: 2}
+    text: Stands of collagen that interlock with one another. Produced from Myofibroblasts,
+      these stands fill the dead zone to create a scar.

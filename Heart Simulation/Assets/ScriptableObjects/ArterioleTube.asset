@@ -17,3 +17,9 @@ MonoBehaviour:
   defaultMaterials:
   - {fileID: 2100000, guid: 1838c26cd94902c44b77023d036fa3b9, type: 2}
   anim: {fileID: 0}
+  defaultText: The arteriole is a small artery, transporting oxygenated blood. Their
+    wall is made up of 1 layer of Endothelial cells forming an Endothelium sheath.
+  responseText:
+  - triggeringSimulus: {fileID: 11400000, guid: cf5fb77f677160740882243ed03e79c5, type: 2}
+    text: Having been blocked, blood flow ceases and the Endothelial cell lining
+      dies.
